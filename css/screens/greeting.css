@@ -1,0 +1,42 @@
+.web__title {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.form-div {
+  width: 100%;
+  text-align: center;
+}
+
+#login-form input:first-child {
+  padding: 10px;
+  outline: 0;
+  opacity: 0.7;
+  border-width: 0 0 5px;
+  border-color: black;
+}
+
+#login-form input:last-child {
+  padding: 10px;
+}
+
+@keyframes fadeIn {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+#greeting {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  animation: fadeIn 0.8s ease-in-out;
+  font-size: 44px;
+}
