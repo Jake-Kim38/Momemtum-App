@@ -36,7 +36,7 @@
 #greeting {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 70px;
   animation: fadeIn 0.8s ease-in-out;
   font-size: 44px;
 }

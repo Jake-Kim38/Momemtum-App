@@ -1,0 +1,46 @@
+#todo-form {
+  margin-top: -60px;
+  display: flex;
+  justify-content: center;
+}
+
+#todo-form input {
+  outline: 0;
+  width: 500px;
+  text-align: center;
+  border-radius: 10px;
+  border-width: 0 0 5px;
+  border-color: black;
+}
+
+@keyframes colorChange {
+  0% {
+    border-radius: 10px;
+  }
+  50% {
+    width: 550px;
+    border-radius: 30px;
+  }
+  100% {
+    border-radius: 10px;
+  }
+}
+
+#todo-form input:focus {
+  animation: colorChange 2s ease-in-out infinite;
+}
+
+#todo-list {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#todo-list li {
+  font-size: 25px;
+}
+
+#todo-list li button {
+  margin-top: 15px;
+  margin-left: 30px;
+}
