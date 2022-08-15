@@ -4,3 +4,13 @@
   width: 100%;
   text-align: center;
 }
+
+.refresh__div {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.refresh__div button {
+  opacity: 0.8;
+}
